@@ -1,0 +1,25 @@
+{
+    // the host of the SMTP server
+    "SmtpHost": "smtp.sendgrid.net",
+    // the port of the SMTP server
+    "SmtpPort": 587,
+    "SslEnabled": false,
+    // the username of the SMTP server
+    "SmtpUser": "apikey",
+    // the password of the SMTP user
+    "SmtpPassword": "THE KEY",
+    // the domain of the SMTP user
+    "SmtpDomain": "",
+    // the email send timeout in seconds
+    "Timeout": 20,
+    // the email address to send the emails from
+    "FromEmail": "",
+    // the name to send the emails as
+    "FromName": "",
+	// full path to the excel file
+    "EmailExcelPath": "C:\\Users\\LaszloNemes\\Downloads\\Test.xlsx",
+	// sheet name from the excel file
+    "ExcelSheetName": "Sheet1",
+	// does it have header line or not
+    "ExcelHeader": true
+}
